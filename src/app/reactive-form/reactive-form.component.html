@@ -15,7 +15,7 @@
 
 <div class="row">
    <div class="form-group col-md-6">
-   <label>Employee number:<span class="lblError">*</span></label>
+   <label>Employee no:<span class="lblError">*</span></label>
    <div class="controls">
    <input formControlName="Employee_no" placeholder="Employee number" type="text" class="form-control">
    <p class="lblError" *ngIf="BasicInformation.get('Employee_no').hasError('required') && !BasicInformation.get('Employee_no').pristine"> Employe number is required.</p>
